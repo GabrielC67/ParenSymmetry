@@ -11,7 +11,7 @@ public class ParenSymmetryTest {
         Boolean expected = true;
         Boolean actual;
 
-        actual = new ParenSymmetry().isBalanced(inputTest);
+        actual = new ParenSymmetry().isBalanced(inputTest); //Test from String inputTest created from Method 'isBalanced'
         Assert.assertEquals(expected, actual);
     }
     @Test
